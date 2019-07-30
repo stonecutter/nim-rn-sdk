@@ -1,0 +1,17 @@
+{
+  "name": "nim-rn-sdk",
+  "version": "1.0.0",
+  "description": "nim react native sdk with typescript support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nim",
+    "react",
+    "sdk",
+    "typescript"
+  ],
+  "author": "wangqian@libzz.com",
+  "license": "ISC"
+}
