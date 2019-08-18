@@ -1,6 +1,6 @@
 {
   "name": "nim-rn-sdk",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "nim react native sdk with typescript support",
   "main": "index.js",
   "scripts": {
