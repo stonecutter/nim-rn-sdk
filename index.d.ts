@@ -213,9 +213,9 @@ export interface InstanceOptions {
    * 发送消息
    * 设置当前会话
    * 重置会话未读数
-   * @param sessions
+   * @param session
    */
-  onupdatesession?: (sessions: Session[]) => void
+  onupdatesession?: (session: Session) => void
   /**
    * 是否要忽略某条通知类消息, 该方法会接收一个消息对象, 如果该方法返回 true, 那么 SDK 将忽略此条通知类消息
    * @param message
