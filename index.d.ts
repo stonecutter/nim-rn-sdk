@@ -317,6 +317,34 @@ export interface InstanceOptions {
    * 是否使用数据库
    */
   db?: boolean
+  /**
+   * iOS端推送代码
+   */
+  iosPushConfig?: iosPushConfig
+  /**
+   * 安卓端推送代码
+   */
+  androidPushConfig?: androidPushConfig
+}
+
+export interface iosPushConfig {
+  tokenName: string
+}
+
+export interface androidPushConfig {
+  xmAppId: string
+  xmAppKey: string
+  xmCertificateName: string
+  hwCertificateName: string
+  mzAppId: string
+  mzAppKey: string
+  mzCertificateName: string
+  fcmCertificateName: string
+  vivoCertificateName: string
+  oppoAppId: string // oppoAppId， oppoAppKey， oppoAppSercet 在oppo推送平台注册得到
+  oppoAppKey: string
+  oppoAppSercet: string
+  oppoCertificateName: string
 }
 
 export interface LoginInfo {
